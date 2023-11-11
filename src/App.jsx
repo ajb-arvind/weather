@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
-import Location from './Location';
 import SingledayWeather from './SingledayWeather';
 import MultidayWeather from './MultidayWeather';
 import HourlyWeather from './HourlyWeather';
+import Location from './Location';
 
 function App() {
   const [ShowSearchBar, setShowSearchBar] = useState(false);
