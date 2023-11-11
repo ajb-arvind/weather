@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import Location from './location';
+import Location from './Location';
 import SingledayWeather from './SingledayWeather';
 import MultidayWeather from './MultidayWeather';
 import HourlyWeather from './HourlyWeather';
@@ -47,6 +47,9 @@ function App() {
         <HourlyWeather coordinate={coordinate} />
 
         <MultidayWeather coordinate={coordinate} />
+        <a href="https://www.flaticon.com/free-icons/star" title="star icons">
+          Star icons created by iconixar - Flaticon
+        </a>
       </main>
     </>
   );
